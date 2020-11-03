@@ -6,8 +6,8 @@
 ║\"PLAYER_JS_URL\":\"([^\"]+)\"║
 ║\"assets\":.+?\"js\":\s*\"([^\"]+)\"║▲
 ►player_config_patterns◄▼
-║;ytplayer\.config\s*=\s*({.+?});ytplayer║
-║;ytplayer\.config\s*=\s*({.+?});║▲
+║;ytplayer\.config\s*=\s*({.+});ytplayer║
+║;ytplayer\.config\s*=\s*({.+});║▲
 ►decrypt_function_patterns◄▼
 ║\b[cs]\s*&&\s*[adf]\.set\([^,]+\s*,\s*encodeURIComponent\s*\(\s*(?P<sig>[a-zA-Z0-9$]+)\(║
 ║\b[a-zA-Z0-9]+\s*&&\s*[a-zA-Z0-9]+\.set\([^,]+\s*,\s*encodeURIComponent\s*\(\s*(?P<sig>[a-zA-Z0-9$]+)\(║
