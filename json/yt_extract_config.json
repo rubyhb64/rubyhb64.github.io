@@ -4,13 +4,16 @@
          "regexp":"\"jsUrl\"\s*:\s*\"([^\"]+)\""
       },
       {
-         "regexp":"<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bname=[\"\\']player_ias\/base"
+         "regexp":"<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bname=[\"\']player_ias\/base"
       },
       {
          "regexp":"<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bclass=[\"\']js-httpswwwyoutubecomsplayer"
       },
       {
          "regexp":"<div[^>]+\bclass=[\"\']html5-video-player.*[\"\'].*data-version=\"([^\"]+)\""
+      },
+      {
+         "regexp":"\"PLAYER_JS_URL\":\"([^\"]+)\""
       },
       {
          "regexp":"\"assets\":.+?\"js\":\s*\"([^\"]+)\""
