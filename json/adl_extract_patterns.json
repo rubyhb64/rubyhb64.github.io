@@ -19,26 +19,6 @@
          "regexp":"\"assets\":.+?\"js\":\s*\"([^\"]+)\""
       }
    ],
-   "js_player_patterns":[
-      {
-         "regexp":"\"jsUrl\"\s*:\s*\"([^\"]+)\""
-      },
-      {
-         "regexp":"<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bname=[\"\']player_ias\/base"
-      },
-      {
-         "regexp":"<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bclass=[\"\']js-httpswwwyoutubecomsplayer"
-      },
-      {
-         "regexp":"<div[^>]+\bclass=[\"\']html5-video-player.*[\"\'].*data-version=\"([^\"]+)\""
-      },
-      {
-         "regexp":"\"PLAYER_JS_URL\":\"([^\"]+)\""
-      },
-      {
-         "regexp":"\"assets\":.+?\"js\":\s*\"([^\"]+)\""
-      }
-   ],
    "player_config_patterns":[
       {
          "regexp":";ytplayer\.config\s*=\s*({.+?});ytplayer"
