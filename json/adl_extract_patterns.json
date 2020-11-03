@@ -1,5 +1,5 @@
 {
-   "js_player_pattern":[
+   "js_player_patterns":[
       {
          "regexp":"\"jsUrl\"\s*:\s*\"([^\"]+)\""
       },
