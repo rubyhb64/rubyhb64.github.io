@@ -19,14 +19,6 @@
          "regexp":"\"assets\":.+?\"js\":\s*\"([^\"]+)\""
       }
    ],
-   "player_config_patterns":[
-      {
-         "regexp":";ytplayer\.config\s*=\s*({.+?});ytplayer"
-      },
-      {
-         "regexp":";ytplayer\.config\s*=\s*({.+?});"
-      }
-   ],
    "decrypt_function_patterns":[
       {
          "regexp":"\b[cs]\s*&&\s*[adf]\.set\([^,]+\s*,\s*encodeURIComponent\s*\(\s*(?P<sig>[a-zA-Z0-9$]+)\("
