@@ -2,8 +2,6 @@
 ║\"jsUrl\"\s*:\s*\"([^\"]+)\"║
 ║<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bname=[\"\']player_ias\/base║
 ║<script[^>]+\bsrc=[\"\']([^\"]+)[\"\'][^>]+\bclass=[\"\']js-httpswwwyoutubecomsplayer║
-║<div[^>]+\bclass=[\"\']html5-video-player.*[\"\'].*data-version=\"([^\"]+)\"║
-║\"PLAYER_JS_URL\":\"([^\"]+)\"║
 ║\"assets\":.+?\"js\":\s*\"([^\"]+)\"║▲
 ►player_config_patterns◄▼
 ║;ytplayer\.config\s*=\s*(\{.+?\});ytplayer║
